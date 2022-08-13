@@ -17,14 +17,19 @@
 }
 
 .main-content h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
+    text-decoration: underline dotted;
+    opacity: 90%;
 }
 
 .main-content p {
+    font-style: italic;
     margin-top: 1rem;
     font-size: 1.2rem;
     text-align: center;
+    text-decoration: underline;
+    opacity: 85%;
 }
 
 .main-btn {
@@ -200,12 +205,22 @@
     .main-content h1 {
         font-size: 2.5rem;
         color: black;
+        opacity: 70%;
     }
 
     .main-content p {
         margin-top: 1rem;
         font-size: 1.5rem;
         color: black;
+        opacity: 80%;
+    }
+
+    .main-menu li {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        color: black;
+        opacity: 80%;
+        border-radius: 1.5rem;
     }
 
     #main-img {
