@@ -1,5 +1,15 @@
 @import url('content.css');
 
+body {
+  background-image: url(images/Hotdog_Background.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: hidden;
+
+}
+
 :root {
   --darkgray: #FECD45;
   --brightred: #E40C2B;
@@ -83,6 +93,12 @@
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
   background: var(--white);
+}
+
+.main-menu {
+  text-align: center;
+  padding-top: 25px;
+  list-style: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -319,5 +335,13 @@
   .container form .submit-btn{
     width: 100%;
   }
+
+/* This is where the contact style css begins */
+.form-container {
+  width: 25%;
+  margin: auto;
+  display: block;
+  padding: 5px;
+}
   
 }
