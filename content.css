@@ -12,18 +12,20 @@
   justify-self: start;
   margin-left: 20px;
   color: #1D2228;
-  width: 80%;
+  width: 100%;
 }
 
 .main-content h1 {
-  font-size: 2rem;
+  font-weight: bold;
+  font-size: 5rem;
   text-align: center;
 }
 
 .main-content p {
+  font-weight: lighter;
   margin-top: 1rem;
   font-size: 1.2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .main-btn {
@@ -196,7 +198,8 @@ span.price {
   }
 
   .main-content h1 {
-      font-size: 2.5rem;
+      font-weight: bold;
+      font-size: 5rem;
       color: black;
   }
 
@@ -217,11 +220,13 @@ span.price {
   }
 
   .main-content h1 {
-      font-size: 2.8rem;
+      font-weight: bold;
+      font-size: 4rem;
   }
 
   .main-content p {
       margin-top: 2rem;
+      font-weight: lighter;
       font-size: 1.5rem;
   }
 
